@@ -1,15 +1,14 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class IQuestObjective : MonoBehaviour {
+namespace QuestSystem
+{
+    public interface IQuestObjective
+    {
+        string Title { get; }
+        string Description { get; }
+        void UpdateProgress();
+        void CheckProgress();
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    }
 }
