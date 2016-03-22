@@ -17,7 +17,7 @@ namespace QuestSystem
         //chainquestiD
         public Quest()
         {
-
+          
         }
 
 
@@ -38,6 +38,18 @@ namespace QuestSystem
             //on completetion
             //on failed
             //on update
+
+        private bool IsComplete()
+        {
+            for (int i = 0; i < objectives.Count; i++)
+            {
+                if (objectives[i].IsComplete != false && objectives[i].IsBonus == false)
+                {
+                    return false;
+                } 
+            }
+            return true;    //get reward!! fire on complete event!
+        }
 
     }
 }

@@ -78,6 +78,7 @@
     <Compile Include="Assets\Quest System\Scripts\Quest.cs" />
     <Compile Include="Assets\Quest System\Scripts\QuestIdentifier.cs" />
     <Compile Include="Assets\Quest System\Scripts\QuestText.cs" />
+    <Compile Include="Assets\Quest System\Scripts\Test.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
