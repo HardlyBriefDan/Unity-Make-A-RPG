@@ -13,13 +13,11 @@
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
-    <CompilerResponseFile>
-    </CompilerResponseFile>
+    <CompilerResponseFile></CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
     <UnityVersion>5.2.2f1</UnityVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -70,11 +68,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Location\Location.cs" />
+    <Compile Include="Assets\Player\Player.cs" />
     <Compile Include="Assets\Quest System\Scripts\Interfaces\IQuest.cs" />
     <Compile Include="Assets\Quest System\Scripts\Interfaces\IQuestIdentifier.cs" />
     <Compile Include="Assets\Quest System\Scripts\Interfaces\IQuestObjective.cs" />
     <Compile Include="Assets\Quest System\Scripts\Interfaces\IQuestText.cs" />
     <Compile Include="Assets\Quest System\Scripts\Objectives\CollectionObjective.cs" />
+    <Compile Include="Assets\Quest System\Scripts\Objectives\LocationObjective.cs" />
     <Compile Include="Assets\Quest System\Scripts\Quest.cs" />
     <Compile Include="Assets\Quest System\Scripts\QuestIdentifier.cs" />
     <Compile Include="Assets\Quest System\Scripts\QuestText.cs" />

@@ -113,3 +113,6 @@ namespace QuestSystem
 
     }
 }
+
+
+//location is a specific point in the world
